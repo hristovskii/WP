@@ -17,7 +17,7 @@ public class DataHolder {
     @PostConstruct
     public void init() {
         events = new ArrayList<Event>();
-        for (int i = 1; i < 20; i++){
+        for (int i = 1; i < 5; i++){
             events.add(new Event("Event"+i, "desc"+i, i));
         }
         eventBookings = new ArrayList<>();
